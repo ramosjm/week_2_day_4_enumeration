@@ -26,5 +26,9 @@ class StarSystem
     return @planets.find {|planet| diameter_array.min == planet.diameter}
   end
 
+  def get_planets_with_no_moons
+    return
+  end
+
 
 end
